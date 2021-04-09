@@ -1,0 +1,5 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
+
+-- You'll need a key from the discord server (NO LINKVERTISES!)
+
+-- Link: discord.gg/jyySpgkFSp

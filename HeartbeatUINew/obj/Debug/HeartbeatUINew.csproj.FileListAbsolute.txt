@@ -1,0 +1,26 @@
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\HeartbeatUINew.exe.config
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\HeartbeatUINew.exe
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\HeartbeatUINew.pdb
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.csprojAssemblyReference.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\Simple Styles.baml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\MainWindow.g.cs
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\App.g.cs
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew_MarkupCompile.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew_MarkupCompile.lref
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\App.baml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\MainWindow.baml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.g.resources
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.Properties.Resources.resources
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.csproj.GenerateResource.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.csproj.CoreCompileInputs.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.exe
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.pdb
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Debug\HeartbeatUINew.csproj.CopyComplete
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\ArchAPI.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\DiscordRPC.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\Newtonsoft.Json.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\DiscordRPC.pdb
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\DiscordRPC.xml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Debug\Newtonsoft.Json.xml

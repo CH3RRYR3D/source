@@ -1,0 +1,58 @@
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\HeartbeatUINew.exe.config
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\HeartbeatUINew.exe
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\HeartbeatUINew.pdb
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\DiscordRPC.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\ICSharpCode.AvalonEdit.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\Newtonsoft.Json.dll
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\DiscordRPC.pdb
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\DiscordRPC.xml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\ICSharpCode.AvalonEdit.xml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\Newtonsoft.Json.xml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\Simple Styles.baml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\MainWindow.g.cs
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\App.g.cs
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\HeartbeatUINew_MarkupCompile.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\HeartbeatUINew_MarkupCompile.lref
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\App.baml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\MainWindow.baml
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\HeartbeatUINew.g.resources
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\HeartbeatUINew.Properties.Resources.resources
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\Source.csproj.GenerateResource.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\Source.csproj.CoreCompileInputs.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\Source.csproj.CopyComplete
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\HeartbeatUINew.exe
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\HeartbeatUINew.pdb
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\obj\Release\Source.csprojAssemblyReference.cache
+C:\Users\atree\source\repos\HeartbeatUINew\HeartbeatUINew\bin\Release\ArchAPI.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\DiscordRPC.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ICSharpCode.AvalonEdit.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Newtonsoft.Json.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\DiscordRPC.pdb
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\DiscordRPC.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ICSharpCode.AvalonEdit.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Newtonsoft.Json.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.csprojAssemblyReference.cache
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Simple Styles.baml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\MainWindow.g.cs
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\App.g.cs
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\App.baml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\MainWindow.baml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.csproj.GenerateResource.cache
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.csproj.CoreCompileInputs.cache
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.csproj.CopyComplete
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ActiproSoftware.Ribbon.Wpf.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ActiproSoftware.Shared.Wpf.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ActiproSoftware.Ribbon.Wpf.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ActiproSoftware.Shared.Wpf.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Source.exe.config
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Source.exe
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Source.pdb
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ArchAPI.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source_MarkupCompile.cache
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source_MarkupCompile.lref
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.g.resources
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.Properties.Resources.resources
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.exe
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.pdb
