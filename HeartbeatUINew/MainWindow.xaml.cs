@@ -354,14 +354,14 @@ namespace HeartbeatUINew
         private void button4_Copy2_Click(object sender, RoutedEventArgs e)
         {
             apiAenmo.InjectAnemo();
-            if (apiAenmo.IsInjected())
+            /*if (apiAenmo.IsInjected())
             {
                 apiAenmo.ExecuteScript(File.ReadAllText("scripts\\"));
             }
             else
             {
                 return;
-            }
+            }*/
             
         }
 
