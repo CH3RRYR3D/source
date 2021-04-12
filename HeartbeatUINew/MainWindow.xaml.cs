@@ -300,10 +300,7 @@ namespace HeartbeatUINew
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
