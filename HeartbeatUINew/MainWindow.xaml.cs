@@ -282,7 +282,7 @@ namespace HeartbeatUINew
             client.SetPresence(new RichPresence()
             {
                 Details = "Using Source",
-                State = "ch3rry.red",
+                State = "from ch3rry.red",
                 Assets = new Assets()
                 {
                     LargeImageKey = "perfect_icon_512x512",
