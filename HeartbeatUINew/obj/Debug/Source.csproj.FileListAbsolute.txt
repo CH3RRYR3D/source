@@ -52,6 +52,6 @@ C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Debug\Source.g.resources
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Debug\Source.Properties.Resources.resources
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Debug\Source.exe
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Debug\Source.pdb
-C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Debug\ArchAPI.dll
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Debug\AnemoAPI.dll

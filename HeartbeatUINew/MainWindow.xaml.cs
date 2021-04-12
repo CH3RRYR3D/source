@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
-using ArchAPI;
+using AnemoAPI;
 using System.Windows.Forms;
 using DiscordRPC;
 using DiscordRPC.Logging;
@@ -28,7 +28,7 @@ using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 using System.Collections.Specialized;
 using Source;
-using AxonSimpleUI;
+
 
 namespace HeartbeatUINew
 {
@@ -43,7 +43,7 @@ namespace HeartbeatUINew
 
             this.Loaded += async delegate (object s, RoutedEventArgs e)
             {
-
+                
 
                 Console.WriteLine("Checking For First Run");
                 if (Source.Properties.Settings.Default.FirstRun == false)
@@ -112,8 +112,7 @@ namespace HeartbeatUINew
 
         }
 
-        Arch dll = new Arch();
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -136,9 +135,12 @@ namespace HeartbeatUINew
             this.DragMove();
         }
 
+        Anemo apiAenmo = new Anemo();
+
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Functions.Inject();
+            
+            
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -235,7 +237,7 @@ namespace HeartbeatUINew
 
 
 
-            dll.Execute(avalon.Text);
+            apiAenmo.ExecuteScript(avalon.Text);
         }
 
 
@@ -329,7 +331,7 @@ namespace HeartbeatUINew
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            dll.Execute(dexscript.Text);
+            apiAenmo.ExecuteScript(dexscript.Text);
         }
 
 
@@ -348,6 +350,22 @@ namespace HeartbeatUINew
         {
             client.Dispose();
         }
+
+        private void button4_Copy2_Click(object sender, RoutedEventArgs e)
+        {
+            apiAenmo.InjectAnemo();
+            if (apiAenmo.IsInjected())
+            {
+                apiAenmo.ExecuteScript(File.ReadAllText("scripts\\"));
+            }
+            else
+            {
+                return;
+            }
+            
+        }
+        
+    
     }
 }
 

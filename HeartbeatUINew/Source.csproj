@@ -59,9 +59,8 @@
   <ItemGroup>
     <Reference Include="ActiproSoftware.Ribbon.Wpf, Version=21.1.0.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL" />
     <Reference Include="ActiproSoftware.Shared.Wpf, Version=21.1.0.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL" />
-    <Reference Include="ArchAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Downloads\ArchAPI.dll</HintPath>
+    <Reference Include="AnemoAPI">
+      <HintPath>..\..\..\Downloads\AnemoAPI\AnemoAPI\AnemoAPI.dll</HintPath>
     </Reference>
     <Reference Include="DiscordRPC, Version=1.0.175.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DiscordRichPresence.1.0.175\lib\net35\DiscordRPC.dll</HintPath>
@@ -107,8 +106,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Functions.cs" />
-    <Compile Include="Injector.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -119,7 +116,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NamedPipes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -847,7 +847,7 @@
                 <ImageBrush ImageSource="icons8-trash-can-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button4_Copy2" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_2" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
+        <Button x:Name="button4_Copy2" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2" Click="button4_Copy2_Click">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-syringe-24.png"/>
             </Button.Background>

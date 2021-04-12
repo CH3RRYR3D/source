@@ -47,7 +47,6 @@ C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ActiproSoftware.
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Source.exe.config
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Source.exe
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\Source.pdb
-C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\ArchAPI.dll
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\System.Net.Http.Formatting.dll
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\System.Net.Http.Formatting.xml
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source_MarkupCompile.cache
@@ -56,3 +55,4 @@ C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.g.resourc
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.Properties.Resources.resources
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.exe
 C:\Users\atree\Desktop\Source Source\HeartbeatUINew\obj\Release\Source.pdb
+C:\Users\atree\Desktop\Source Source\HeartbeatUINew\bin\Release\RobloxHacksAPI.dll
