@@ -61,7 +61,7 @@ namespace HeartbeatUINew
 
                 // Update detector
                 WebClient web = new WebClient();
-                if (web.DownloadString("https://www.ch3rry.red/storage/heartbeat/check") != "CH3RRY-DO5AU7VSZ9HKO0297CNE0RTJWNOAMG51NQJTS")
+                if (web.DownloadString("https://www.ch3rry.red/storage/heartbeat/check") != "CH3RRY-DO5AU7VSZ9HKO0297CNE0RTJWNOAMG51NQJT")
                 {
                     MessageBoxResult result = System.Windows.MessageBox.Show("Please run the installer to update!", "Update Available", MessageBoxButton.OK, MessageBoxImage.Information); // Add custom Box
                     Environment.Exit(0);

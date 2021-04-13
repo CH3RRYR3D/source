@@ -896,7 +896,7 @@
             <CheckBox x:Name="rpcbox" Content="" HorizontalAlignment="Left" Margin="17.668,44.577,0,0" VerticalAlignment="Top" Background="White" Foreground="Black" BorderBrush="#FF707070" Checked="rpcbox_Checked" Unchecked="rpcbox_Unchecked" IsChecked="True"/>
             <Label Content="RPC" HorizontalAlignment="Left" Margin="32.838,40,0,0" VerticalAlignment="Top" FontSize="10" Foreground="White"/>
         </Grid>
-        <Button x:Name="scripthubopen" Content="Button" HorizontalAlignment="Left" Height="30" Margin="15,10,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="-0.333,-1.8" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2" IsEnabled="False">
+        <Button x:Name="scripthubopen" Content="Button" HorizontalAlignment="Left" Height="30" Margin="15,10,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="-0.333,-1.8" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
