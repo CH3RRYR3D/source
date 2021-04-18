@@ -247,50 +247,8 @@ namespace HeartbeatUINew
         
 
 
-        public DiscordRpcClient client;
-
-        //Called when your application first starts.
-        //For example, just before your main loop, on OnEnable for unity.
-        void Initialize()
-        {
-            /*
-            Create a Discord client
-            NOTE: 	If you are using Unity3D, you must use the full constructor and define
-                     the pipe connection.
-            */
-            client = new DiscordRpcClient("824695565274710046");
-
-            //Set the logger
-            client.Logger = new ConsoleLogger() { Level = LogLevel.Warning };
-
-            //Subscribe to events
-            client.OnReady += (sender, e) =>
-            {
-                Console.WriteLine("Starting RPC!", e.User.Username);
-            };
-
-            client.OnPresenceUpdate += (sender, e) =>
-            {
-                Console.WriteLine("Started!");
-            };
-
-            //Connect to the RPC
-            client.Initialize();
-
-            //Set the rich presence
-            //Call this as many times as you want and anywhere in your code.
-            client.SetPresence(new RichPresence()
-            {
-                Details = "Using Source",
-                State = "from ch3rry.red",
-                Assets = new Assets()
-                {
-                    LargeImageKey = "perfect_icon_512x512",
-                    LargeImageText = "www.ch3rry.red",
-                    SmallImageKey = "Discord-Logo-White_512x512"
-                }
-            });
-        } 
+       
+        
 
         private void scriptbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -340,12 +298,12 @@ namespace HeartbeatUINew
 
         private void rpcbox_Checked(object sender, RoutedEventArgs e)
         {
-            Initialize();
+            
         }
 
         private void rpcbox_Unchecked(object sender, RoutedEventArgs e)
         {
-            client.Dispose();
+            
         }
 
         private void button4_Copy2_Click(object sender, RoutedEventArgs e)
