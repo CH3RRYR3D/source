@@ -17,7 +17,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
-using AnemoAPI;
 using System.Windows.Forms;
 using DiscordRPC;
 using DiscordRPC.Logging;
@@ -45,21 +44,13 @@ namespace HeartbeatUINew
             {
                 
 
-                Console.WriteLine("Checking For First Run");
-                if (Source.Properties.Settings.Default.FirstRun == false)
-                {
-                    await Task.Delay(1000);
-                    Console.WriteLine("First Run == True Joining Discord");
-                    System.Diagnostics.Process.Start("https://discord.gg/XzC6yDQ5St");
-                    Source.Properties.Settings.Default.FirstRun = true;
-                    Source.Properties.Settings.Default.Save();
-                }
+                
 
 
 
 
 
-                // Update detector
+                /* Update detector
                 WebClient web = new WebClient();
                 if (web.DownloadString("https://www.ch3rry.red/storage/heartbeat/check") != "CH3RRY-DO5AU7VSZ9HKO0297CNE0RTJWNOAMG51NQJT")
                 {
@@ -74,7 +65,7 @@ namespace HeartbeatUINew
                     Console.WriteLine("Checking For Updates");
                     await Task.Delay(1000);
                     Console.WriteLine("No Updates Found!");
-                }
+                } */
 
 
 
@@ -135,7 +126,7 @@ namespace HeartbeatUINew
             this.DragMove();
         }
 
-        Anemo apiAenmo = new Anemo();
+      
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
@@ -237,18 +228,8 @@ namespace HeartbeatUINew
 
 
 
-            apiAenmo.ExecuteScript(avalon.Text);
+           
         }
-
-
-
-
-
-        
-
-
-       
-        
 
         private void scriptbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -286,7 +267,7 @@ namespace HeartbeatUINew
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            apiAenmo.ExecuteScript(dexscript.Text);
+            
         }
 
 
@@ -308,15 +289,7 @@ namespace HeartbeatUINew
 
         private void button4_Copy2_Click(object sender, RoutedEventArgs e)
         {
-            apiAenmo.InjectAnemo();
-            if (apiAenmo.IsInjected())
-            {
-                apiAenmo.ExecuteScript(File.ReadAllText("scripts\\"));
-            }
-            else
-            {
-                return;
-            }
+            
             
         }
 
