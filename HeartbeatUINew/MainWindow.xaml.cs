@@ -1,32 +1,14 @@
 ﻿using ICSharpCode.AvalonEdit.Highlighting;
 using ICSharpCode.AvalonEdit.Highlighting.Xshd;
 using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Xml;
 using System.Windows.Forms;
-using DiscordRPC;
-using DiscordRPC.Logging;
-using System.Net.NetworkInformation;
-using System.Threading;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
-using Microsoft.Win32.SafeHandles;
-using System.Collections.Specialized;
-using Source;
+using System.Windows.Input;
+using System.Xml;
 
 
 namespace HeartbeatUINew
@@ -42,9 +24,9 @@ namespace HeartbeatUINew
 
             this.Loaded += async delegate (object s, RoutedEventArgs e)
             {
-                
 
-                
+
+
 
 
 
@@ -76,7 +58,7 @@ namespace HeartbeatUINew
 
                 // Startup
                 UpdateSyntax();
-                
+
                 RefreshBox();
                 openwindow();
             };
@@ -103,7 +85,7 @@ namespace HeartbeatUINew
 
         }
 
-        
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -126,12 +108,12 @@ namespace HeartbeatUINew
             this.DragMove();
         }
 
-      
+
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            
-            
+
+
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -228,7 +210,7 @@ namespace HeartbeatUINew
 
 
 
-           
+
         }
 
         private void scriptbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -239,7 +221,7 @@ namespace HeartbeatUINew
             }
         }
 
-        
+
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
@@ -267,30 +249,30 @@ namespace HeartbeatUINew
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
 
 
-       private void openwindow()
+        private void openwindow()
         {
-           
+
         }
 
         private void rpcbox_Checked(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void rpcbox_Unchecked(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void button4_Copy2_Click(object sender, RoutedEventArgs e)
         {
-            
-            
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

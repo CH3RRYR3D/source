@@ -412,11 +412,11 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.3"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.05"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="grid">
-                <DiscreteObjectKeyFrame KeyTime="0:0:1.1" Value="{x:Static Visibility.Visible}"/>
-                <DiscreteObjectKeyFrame KeyTime="0:0:1.3" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.2" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.5" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(TextElement.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="scriptbox">
                 <EasingColorKeyFrame KeyTime="0" Value="White"/>
@@ -641,6 +641,54 @@
                 <SplineDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Key="clear">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectangle_Copy">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.4" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.01"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="hidescriptbox">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="scriptbox">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="avalon">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.321"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="avalon">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="57.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="scripthubopen">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="scripthubopen_Copy">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="showscriptbox">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="scripthubopen_Copy">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="scripthubopen">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="avalon">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="1.014"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="avalon">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="2.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="scriptbox">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
     <Window.Triggers>
         <EventTrigger RoutedEvent="FrameworkElement.Loaded">
@@ -653,10 +701,13 @@
             <BeginStoryboard x:Name="closesettings_BeginStoryboard" Storyboard="{StaticResource closesettings}"/>
         </EventTrigger>
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="scripthubopen">
-            <BeginStoryboard x:Name="scriptopen_BeginStoryboard1" Storyboard="{StaticResource scriptopen}"/>
+            <BeginStoryboard x:Name="hidescriptbox_BeginStoryboard" Storyboard="{StaticResource hidescriptbox}"/>
         </EventTrigger>
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button9_Copy">
             <BeginStoryboard x:Name="scriptopen_Copy1_BeginStoryboard" Storyboard="{StaticResource scriptopen_Copy1}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button3_Copy2">
+            <BeginStoryboard x:Name="clear_BeginStoryboard1" Storyboard="{StaticResource clear}"/>
         </EventTrigger>
     </Window.Triggers>
     <Grid HorizontalAlignment="Left" Height="275" VerticalAlignment="Top" Width="544" Margin="10,59,-14,0">
@@ -722,7 +773,16 @@
             </Rectangle.RenderTransform>
         </Rectangle>
         <Rectangle x:Name="rectangle1" Fill="#FF151515" HorizontalAlignment="Left" Height="223" Margin="16,31,0,0" RadiusX="5" VerticalAlignment="Top" Width="483" RadiusY="5" Grid.ColumnSpan="2" Grid.Row="1"/>
-        <avalonedit:TextEditor x:Name="avalon" HorizontalAlignment="Left" Margin="22,39,0,0" VerticalAlignment="Top" Height="208" Width="358" Background="#FF151515" LineNumbersForeground="White" Foreground="White" HorizontalScrollBarVisibility="Auto" ShowLineNumbers="True" WordWrap="True" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="2" Grid.Row="1"/>
+        <avalonedit:TextEditor x:Name="avalon" HorizontalAlignment="Left" Margin="22,39,0,0" VerticalAlignment="Top" Height="208" Width="358" Background="#FF151515" LineNumbersForeground="White" Foreground="White" HorizontalScrollBarVisibility="Auto" ShowLineNumbers="True" WordWrap="True" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="2" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+            <avalonedit:TextEditor.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </avalonedit:TextEditor.RenderTransform>
+        </avalonedit:TextEditor>
         <ListBox x:Name="scriptbox" HorizontalAlignment="Left" Height="208" Margin="73,39,0,0" VerticalAlignment="Top" Width="110" Foreground="White" BorderBrush="{x:Null}" Background="#FF151515" SelectionChanged="scriptbox_SelectionChanged" Grid.Column="1" Grid.Row="1"/>
         <Rectangle x:Name="rectangle2" Fill="#FF151515" HorizontalAlignment="Left" Height="30" Margin="16,11,0,0" VerticalAlignment="Top" Width="204" RadiusX="5" RadiusY="5" Grid.RowSpan="2"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="28" Margin="20,0,0,0" VerticalAlignment="Top" Width="23" Source="SourceLogo.png" Grid.Row="1"/>
@@ -895,6 +955,8 @@
             <Button Content="Kill Roblox" HorizontalAlignment="Left" Margin="10.693,-0.091,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_7" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Opacity="0" Cursor="Hand"/>
             <CheckBox x:Name="rpcbox" Content="" HorizontalAlignment="Left" Margin="17.668,44.577,0,0" VerticalAlignment="Top" Background="White" Foreground="Black" BorderBrush="#FF707070" Checked="rpcbox_Checked" Unchecked="rpcbox_Unchecked" IsChecked="True"/>
             <Label Content="RPC" HorizontalAlignment="Left" Margin="32.838,40,0,0" VerticalAlignment="Top" FontSize="10" Foreground="White"/>
+            <CheckBox Content="" HorizontalAlignment="Left" Height="15.325" Margin="17.54,63.3,0,0" VerticalAlignment="Top" Width="17.46"/>
+            <Label Content="RPC" HorizontalAlignment="Left" Margin="32.838,59.675,0,0" VerticalAlignment="Top" FontSize="10" Foreground="White"/>
         </Grid>
         <Button x:Name="scripthubopen" Content="Button" HorizontalAlignment="Left" Height="30" Margin="15,10,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="-0.333,-1.8" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
             <Button.RenderTransform>
@@ -916,6 +978,26 @@
                 </TransformGroup>
             </avalonedit:TextEditor.RenderTransform>
         </avalonedit:TextEditor>
+        <Rectangle x:Name="rectangle_Copy" Fill="#FFAE0000" Height="268" VerticalAlignment="Top" HorizontalAlignment="Left" Width="495" Margin="10,6,0,0" RadiusX="5" RadiusY="5" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Opacity="0.5" Visibility="Hidden">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Button x:Name="scripthubopen_Copy" Content="Button" HorizontalAlignment="Left" Height="30" Margin="15,10,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="-0.333,-1.8" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2" Visibility="Hidden">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.467"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 
 </Window>
