@@ -274,7 +274,7 @@ namespace HeartbeatUINew
 
        private void openwindow()
         {
-            MessageBoxResult result = System.Windows.MessageBox.Show("If you want to support Source go to\nwww.ch3rry.red/donate", "Support Us?", MessageBoxButton.OK, MessageBoxImage.Question);
+           
         }
 
         private void rpcbox_Checked(object sender, RoutedEventArgs e)
