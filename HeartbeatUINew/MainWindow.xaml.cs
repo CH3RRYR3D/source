@@ -194,6 +194,7 @@ namespace HeartbeatUINew
         }
 
 
+
       
 
         private void scriptbox_SelectionChanged(object sender, SelectionChangedEventArgs e)

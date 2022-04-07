@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:HeartbeatUINew"
         xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" x:Class="HeartbeatUINew.MainWindow"
         mc:Ignorable="d"
-        Title="CH3RRY = DO5AU7VSZ9H + KO0297CNE0RTJWNOAMG51NQJTSN1XG " Height="340" Width="575" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="{x:Null}" Foreground="{x:Null}" AllowsTransparency="True" MouseLeftButtonDown="Window_MouseLeftButtonDown" Icon="SourceLogo.png">
+        " Height="340" Width="575" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="{x:Null}" Foreground="{x:Null}" AllowsTransparency="True" MouseLeftButtonDown="Window_MouseLeftButtonDown" Icon="SourceLogo.png">
     <Window.Resources>
         <Storyboard x:Key="OnLoaded1">
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectangle">
