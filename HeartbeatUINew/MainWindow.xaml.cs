@@ -60,7 +60,7 @@ namespace HeartbeatUINew
                 UpdateSyntax();
 
                 RefreshBox();
-                openwindow();
+               
             };
 
             // Refresh Box Trigger
@@ -110,11 +110,7 @@ namespace HeartbeatUINew
 
 
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-
-        }
+       
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
@@ -164,11 +160,7 @@ namespace HeartbeatUINew
             }
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
-        {
-
-        }
-
+        
 
 
 
@@ -198,20 +190,11 @@ namespace HeartbeatUINew
         {
 
 
-            await Task.Delay(3000);
-
-
-            this.Close();
+            MessageBoxResult result = System.Windows.MessageBox.Show("Please run the installer to update!", "Update Available", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
 
-        private async void button2_Copy_Click(object sender, RoutedEventArgs e)
-        {
-
-
-
-
-        }
+      
 
         private void scriptbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -242,43 +225,7 @@ namespace HeartbeatUINew
             }
         }
 
-        private void scriptclose_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_8(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-
-
-        private void openwindow()
-        {
-
-        }
-
-        private void rpcbox_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void rpcbox_Unchecked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void button4_Copy2_Click(object sender, RoutedEventArgs e)
-        {
-
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }
 
