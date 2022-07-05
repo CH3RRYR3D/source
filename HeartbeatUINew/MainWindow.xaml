@@ -749,7 +749,7 @@
                     </TransformGroup>
                 </Button.RenderTransform>
             </Button>
-            <Button x:Name="button7" Content="Dex" HorizontalAlignment="Left" Height="20" Margin="15,15,0,0" VerticalAlignment="Top" Width="55" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Opacity="0" Click="Button_Click_8" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+            <Button x:Name="button7" Content="Dex" HorizontalAlignment="Left" Height="20" Margin="15,15,0,0" VerticalAlignment="Top" Width="55" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Opacity="0" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -817,7 +817,7 @@
                 <ImageBrush ImageSource="icons8-trash-can-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_2" Grid.RowSpan="2">
+        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-syringe-24.png"/>
             </Button.Background>
@@ -847,7 +847,7 @@
                 <ImageBrush ImageSource="icons8-trash-can-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button4_Copy" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_2" Grid.RowSpan="2">
+        <Button x:Name="button4_Copy" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-syringe-24.png"/>
             </Button.Background>
@@ -877,7 +877,7 @@
                 <ImageBrush ImageSource="icons8-trash-can-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button4_Copy1" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_2" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
+        <Button x:Name="button4_Copy1" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-syringe-24.png"/>
             </Button.Background>
@@ -907,17 +907,17 @@
                 <ImageBrush ImageSource="icons8-trash-can-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button4_Copy2" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2" Click="button4_Copy2_Click">
+        <Button x:Name="button4_Copy2" Content="Button" HorizontalAlignment="Left" Margin="165,14,0,0" VerticalAlignment="Top" Width="23" Height="23" Foreground="{x:Null}" BorderBrush="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-syringe-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2_Copy" Content="Button" HorizontalAlignment="Left" Margin="53,14,0,0" VerticalAlignment="Top" Width="23" Height="23" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="button2_Copy_Click" Grid.RowSpan="2">
+        <Button x:Name="button2_Copy" Content="Button" HorizontalAlignment="Left" Margin="53,14,0,0" VerticalAlignment="Top" Width="23" Height="23" BorderBrush="{x:Null}" Foreground="{x:Null}" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-play-24.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2_Copy1" Content="Button" HorizontalAlignment="Left" Margin="53,14,0,0" VerticalAlignment="Top" Width="23" Height="23" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="button2_Copy_Click" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
+        <Button x:Name="button2_Copy1" Content="Button" HorizontalAlignment="Left" Margin="53,14,0,0" VerticalAlignment="Top" Width="23" Height="23" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-play-24.png"/>
             </Button.Background>
@@ -927,7 +927,7 @@
                 <ImageBrush ImageSource="icons8-settings-24.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Margin="191,14,0,0" VerticalAlignment="Top" Width="24" Height="23" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Click="Button_Click_1" Cursor="Hand" Grid.RowSpan="2">
+        <Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Margin="191,14,0,0" VerticalAlignment="Top" Width="24" Height="23" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="icons8-settings-24.png" Stretch="UniformToFill"/>
             </Button.Background>
@@ -953,7 +953,7 @@
             <Button x:Name="button6" Content="Done" HorizontalAlignment="Left" Height="20.734" Margin="22.064,165.822,0,0" VerticalAlignment="Top" Width="52.171" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Opacity="0" Cursor="Hand" Grid.RowSpan="2"/>
             <Button Content="Kill Roblox" HorizontalAlignment="Left" Margin="10.693,-0.091,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_7" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
             <Button Content="Kill Roblox" HorizontalAlignment="Left" Margin="10.693,-0.091,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_7" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Opacity="0" Cursor="Hand"/>
-            <CheckBox x:Name="rpcbox" Content="" HorizontalAlignment="Left" Margin="17.668,44.577,0,0" VerticalAlignment="Top" Background="White" Foreground="Black" BorderBrush="#FF707070" Checked="rpcbox_Checked" Unchecked="rpcbox_Unchecked" IsChecked="True"/>
+            <CheckBox x:Name="rpcbox" Content="" HorizontalAlignment="Left" Margin="17.668,44.577,0,0" VerticalAlignment="Top" Background="White" Foreground="Black" BorderBrush="#FF707070" Unchecked="rpcbox_Unchecked" IsChecked="True"/>
             <Label Content="RPC" HorizontalAlignment="Left" Margin="32.838,40,0,0" VerticalAlignment="Top" FontSize="10" Foreground="White"/>
             <CheckBox Content="" HorizontalAlignment="Left" Height="15.325" Margin="17.54,63.3,0,0" VerticalAlignment="Top" Width="17.46"/>
             <Label Content="RPC" HorizontalAlignment="Left" Margin="32.838,59.675,0,0" VerticalAlignment="Top" FontSize="10" Foreground="White"/>
